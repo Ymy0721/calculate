@@ -51,20 +51,31 @@ calculate/
 │   │   ├── replaceability.py        # 可替代性计算
 │   │   ├── maturity.py              # 成熟度计算
 │   │   └── __init__.py
+│   ├── rfm                          # RFM 模型计算实现
+│   │   ├── rfm_analysis.ipynb       # RFM 模型分析 Jupyter Notebook
+│   │   ├── inventor_rfm.csv
+│   │   ├── inventor_rfm_segmented.csv
 │   ├── config/                      # 配置模块
 │   │   └── settings.py              # 全局配置参数
+│   │   └── logging_config.py        # 日志配置
+│   │   └── __init__.py
 │   ├── utils/                       # 工具函数模块
 │   │   ├── gpu_utils.py             # GPU 相关工具
-│   │   ├── timer.py                 # 计时器工具
+│   │   ├── io_utils.py              # 输入输出工具
+│   │   ├── parallel_utils.py        # 并行处理工具
+│   │   ├── time_utils.py            # 时间处理工具
+│   │   ├── visualization.py         # 可视化工具
+│   │   ├── data_utils.py            # 数据处理工具
 │   │   └── __init__.py
 │   └── __init__.py                  # src 包初始化文件
 ├── tests/                           # 测试代码目录
-│   ├── core/                        # 核心模块测试
-│   ├── metrics/                     # 指标模块测试
 │   ├── conftest.py                  # Pytest 配置文件和 Fixtures
 │   └── test_*.py                    # 各模块的单元测试文件
+│   └── __init__.py
 ├── main.py                          # 主程序入口脚本
 ├── requirements.txt                 # 项目依赖库列表
+├── setup.py                         # 项目安装脚本
+├── LICENSE                          # 项目许可证文件
 └── README.md                        # 项目说明文档
 ```
 

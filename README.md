@@ -51,21 +51,21 @@ calculate/
 │   │   ├── replaceability.py        # 可替代性计算
 │   │   ├── maturity.py              # 成熟度计算
 │   │   └── __init__.py
-│   ├── config/                     # 配置模块
-│   │   └── settings.py             # 全局配置参数
-│   ├── utils/                      # 工具函数模块
-│   │   ├── gpu_utils.py            # GPU 相关工具
-│   │   ├── timer.py                # 计时器工具
+│   ├── config/                      # 配置模块
+│   │   └── settings.py              # 全局配置参数
+│   ├── utils/                       # 工具函数模块
+│   │   ├── gpu_utils.py             # GPU 相关工具
+│   │   ├── timer.py                 # 计时器工具
 │   │   └── __init__.py
-│   └── __init__.py                 # src 包初始化文件
-├── tests/                          # 测试代码目录
-│   ├── core/                       # 核心模块测试
-│   ├── metrics/                    # 指标模块测试
-│   ├── conftest.py                 # Pytest 配置文件和 Fixtures
-│   └── test_*.py                   # 各模块的单元测试文件
-├── main.py                         # 主程序入口脚本
-├── requirements.txt                # 项目依赖库列表
-└── README.md                       # 项目说明文档
+│   └── __init__.py                  # src 包初始化文件
+├── tests/                           # 测试代码目录
+│   ├── core/                        # 核心模块测试
+│   ├── metrics/                     # 指标模块测试
+│   ├── conftest.py                  # Pytest 配置文件和 Fixtures
+│   └── test_*.py                    # 各模块的单元测试文件
+├── main.py                          # 主程序入口脚本
+├── requirements.txt                 # 项目依赖库列表
+└── README.md                        # 项目说明文档
 ```
 
 ## 安装

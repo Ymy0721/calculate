@@ -1,0 +1,19 @@
+# 基础数据处理
+pandas>=1.3.0
+numpy>=1.20.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+tqdm>=4.60.0
+
+# 自然语言处理
+chardet>=4.0.0
+
+# GPU支持 (可选)
+# cupy-cuda12x>=10.0.0  # 替换11x为你的CUDA版本
+
+# 开发环境
+pytest>=6.2.5
+pylint>=2.10.0
+
+# 其他
+matplotlib>=3.4.0  # 用于可视化

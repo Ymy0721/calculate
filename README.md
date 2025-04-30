@@ -72,7 +72,7 @@ calculate/
 
 1.  **克隆仓库**:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Ymy0721/calculate
     cd calculate
     ```
 2.  **创建虚拟环境** (推荐):
